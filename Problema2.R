@@ -27,6 +27,7 @@ m*1.5+b #he aislado la y. me daban la x
 #resultado= 4.919987
 
 #otra manera
+mod<- lm(y~x)
 y_pred <- predict(mod, data.frame(x=1.5))
 y_pred
 
@@ -50,7 +51,7 @@ lm(y~x) #me da directamente la pendiente y b
 #incercep es la pendiente
 #la x es b
 
-mod<- lm(y~x)
+
 summary(mod)
 
 

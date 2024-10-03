@@ -1,7 +1,9 @@
 #Codigo para problema 1
 
+#a)Coeficiente de determinación
 #Respuesta1 = R^2 = 0.1923 #lo obtengo mirando los datos directamente
 
+#b)coeficiente de correlaciçon
 #Respuesta2 = R = 0.4385202
 sqrt(0.1923)
 
